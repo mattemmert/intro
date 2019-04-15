@@ -1,0 +1,14 @@
+def check(word)
+  if word =~ /lab/
+    puts "The word #{word} contains the letters 'lab'!"
+  else
+    puts "The word #{word} does not contain the letters 'lab!"
+  end
+end
+
+check("laboratory")
+check("experiment")
+check("Pans Labyrinth")
+check("elaborate")
+check("polar bear")
+
